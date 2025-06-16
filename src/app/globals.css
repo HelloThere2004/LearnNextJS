@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -23,4 +24,58 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  background-color: rgb(33, 33, 58)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === THÊM CLASS CỦA BẠN VÀO ĐÂY === */
+
+.home-content {
+  @apply bg-blue-100 w-3/4 rounded m-auto my-20 p-30
+}
+
+.h1-home  {
+  @apply text-4xl text-blue-800 text-center;
+}
+
+.text-home {
+  @apply text-2xl text-blue-800 text-center;
+}
+
+.image-container {
+  @apply flex justify-center my-5
+}
+
+.nav-bar {
+  @apply text-2xl text-blue-900 bg-blue-200 flex justify-around; 
+}
+
+.nav-bar a {
+  @apply py-2 px-4 hover:bg-blue-500 hover:text-blue-100 transition-colors duration-200 rounded;
+}
+
+.nav-active {
+  @apply bg-blue-500 text-blue-100;
+}
+
+.footer {
+  @apply py-10 bg-blue-800 text-blue-200 text-right
+}
+
+.case-card {
+  @apply w-60 bg-blue-100 text-xl text-blue-900 text-center rounded p-2 my-10
+}
+
+.case-container {
+  @apply grid grid-cols-4 w-250 m-auto
 }
