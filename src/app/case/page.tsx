@@ -17,6 +17,9 @@ export default function Case() {
                 <CaseCard link="/case7.jpg" title="Vụ án ám sát nhà ngoại giao" />
                 <CaseCard link="/case8.jpg" title="Bí mật đêm trăng tròn" />
                 <CaseCard link="/case9.jpg" title="Chạm trán Tổ Chức Áo Đen" />
+                <CaseCard link="/case10.jpg" title="Thuật dịch chuyển tức thời của Kaito Kid" />
+                <CaseCard link="/case11.jpg" title="Conan đối đầu Kaito Kid" />
+
             </div>
         </div>
         
