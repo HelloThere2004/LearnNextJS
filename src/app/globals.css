@@ -77,5 +77,5 @@ main {
 }
 
 .case-container {
-  @apply grid grid-cols-4 w-250 m-auto
+  @apply grid grid-cols-4 w-250 m-auto 
 }

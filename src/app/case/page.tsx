@@ -13,6 +13,10 @@ export default function Case() {
                 <CaseCard link="/case3.jpg" title="Sát nhân sau lớp quấn băng" />
                 <CaseCard link="/case4.jpg" title="Vụ án bản Sonata Ánh Trăng" />
                 <CaseCard link="/case5.jpg" title="Cô gái bí ẩn từ Tổ Chức Áo Đen" />
+                <CaseCard link="/case6.jpg" title="Vụ án trong thư viện" />
+                <CaseCard link="/case7.jpg" title="Vụ án ám sát nhà ngoại giao" />
+                <CaseCard link="/case8.jpg" title="Bí mật đêm trăng tròn" />
+                <CaseCard link="/case9.jpg" title="Chạm trán Tổ Chức Áo Đen" />
             </div>
         </div>
         
